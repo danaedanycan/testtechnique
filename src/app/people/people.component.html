@@ -1,0 +1,67 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orelega+One&display=swap"
+  rel="stylesheet"
+/>
+<div id="menu">
+  <h1 id="textmenu">Hogwarts</h1>
+</div>
+<div id="all">
+  <div id="teachers">
+    <h2 id="typepeople">Teachers</h2>
+    <ng-container *ngFor="let person of people">
+      <div *ngIf="person.isTeacher">
+        <h3 id="people">
+          <div>
+            <p id="name">{{ person.firstName }} {{ person.lastName }}</p>
+            <p id="description">{{ person.description }}</p>
+            <div id="date">
+              <img
+                src="../../assets/calendar.png"
+                alt="Description de l'image"
+                id="calendar"
+              />
+              <p id="d">{{ person.arrivalDate }}</p>
+            </div>
+          </div>
+          <div id="house">
+            <p [attr.id]="person.assignment">{{ person.assignment }}</p>
+          </div>
+        </h3>
+      </div>
+    </ng-container>
+  </div>
+  <div id="ent">
+    <h2 id="typepeople">Students</h2>
+    <div id="students">
+      <ng-container *ngFor="let person of people">
+        <div *ngIf="!person.isTeacher">
+          <h3 id="people">
+            <div>
+              <p id="name">{{ person.firstName }} {{ person.lastName }}</p>
+              <p id="description">{{ person.description }}</p>
+              <div id="date">
+                <img
+                  src="../../assets/calendar.png"
+                  alt="Description de l'image"
+                  id="calendar"
+                />
+                <p id="d">{{ person.arrivalDate }}</p>
+              </div>
+            </div>
+            <div id="house">
+              <p [attr.id]="person.house">{{ person.house }}</p>
+            </div>
+          </h3>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

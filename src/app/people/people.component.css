@@ -1,0 +1,239 @@
+#typepeople {
+  font-family: Lato;
+  font-weight: 900;
+  size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  width: 254px;
+  height: 24px;
+  top: 119px;
+  left: 497px;
+  gap: 0px;
+  opacity: 0px;
+  text-align: left;
+  color: rgb(33, 33, 33);
+}
+
+#people {
+  border: 1px solid #f2f2f2;
+  background-color: #ffffff;
+  width: 360px;
+  height: 143px;
+  top: 336px;
+  left: 60px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 4px 10px 0px #0000001a;
+  border-radius: 12px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#name {
+  width: 227px;
+  height: 25px;
+  top: 350px;
+  left: 79px;
+
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: left;
+  color: rgb(33, 33, 33);
+  text-transform: none;
+}
+
+#description {
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: left;
+  width: 227px;
+  height: 59px;
+  top: 375px;
+  left: 79px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgb(33, 33, 33);
+  margin-top: -13px;
+}
+
+#menu {
+  width: 127px;
+  height: 14px;
+  top: 65px;
+  left: 58px;
+  gap: 0px;
+  opacity: 0px;
+  background: #fed510;
+  margin-bottom: 38px;
+}
+#textmenu {
+  width: 312.97px;
+  height: 29px;
+  top: 47px;
+  left: 58px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Orelega One;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30.53px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: black;
+}
+
+#all {
+  display: flex;
+  gap: 25px;
+}
+#calendar {
+  width: 15px;
+  height: 15px;
+  top: 442px;
+  left: 79px;
+  gap: 0px;
+  opacity: 0px;
+}
+#date {
+  position: relative;
+  top: -8px;
+  display: flex;
+  gap: 10px;
+}
+
+#d {
+  position: relative;
+  top: -8px;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.06599999964237213px;
+  text-align: left;
+
+  color: #484848;
+}
+
+#students {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  margin: 0px;
+  width: 80%;
+  top: -18px;
+}
+
+#house{
+
+padding-right: 7px;
+
+}
+
+#Transfiguration{
+  width: 91px;
+  background: #E9131F;
+  border-radius: 10px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  letter-spacing: 0.066px;
+  text-transform: capitalize;
+  color: #F1F1F1;
+}
+
+#Charms{
+  width: 91px;
+  background: #1D79CD;
+  border-radius: 10px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  letter-spacing: 0.066px;
+  text-transform: capitalize;
+  color: #F1F1F1;
+}
+
+#Herbology{
+  width: 91px;
+  background: #C7B514;
+
+  border-radius: 10px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  letter-spacing: 0.066px;
+  text-transform: capitalize;
+  color: #F1F1F1;
+}
+
+#Potions{
+width: 91px;
+background: #18A874;
+border-radius: 10px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height, or 118% */
+text-align: center;
+letter-spacing: 0.066px;
+text-transform: capitalize;
+color: #F1F1F1;
+}
+
+#Gryffindor{
+width: 91px;
+background: #E9131F;
+border-radius: 10px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height, or 118% */
+text-align: center;
+letter-spacing: 0.066px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+#Slytherin{
+width: 91px;
+background: #18A874;
+border-radius: 10px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height, or 118% */
+text-align: center;
+letter-spacing: 0.066px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
